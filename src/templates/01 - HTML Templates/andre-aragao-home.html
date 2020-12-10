@@ -6,7 +6,7 @@
 
     <vtex.cmc:seoHead />
     <vtex:metaTags />
-    <vtex:template id="{{loja}}-styles" />
+    <vtex:template id="andre-aragao-styles" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
@@ -15,14 +15,14 @@
 
     <!-- Chamada do cabeçalho da loja -->
 
-    <vtex:template id="{{loja}}-header" />
+    <vtex:template id="andre-aragao-header" />
 
     <main>
 
         <!-- Estrutura para slide principal -->
 
         <figure class="container slide-principal">
-            <vtex:contentPlaceHolder id="{{loja}}-slide-principal" />
+            <vtex:contentPlaceHolder id="andre-aragao-slide-principal" />
         </figure>
 
         <!-- Estrutura para banners -->
@@ -33,13 +33,13 @@
                 <p class="banner-categoria__text"> Textos sobre as categorias caso existam</p>
             </section>
             <figure class="container-center">
-                <vtex:contentPlaceHolder id="{{loja}}-banners-categoria" />
+                <vtex:contentPlaceHolder id="andre-aragao-banners-categoria" />
             </figure>
         </article>
 
         <!-- Estrutura para informativo -->
         <article class="container-center informativos">
-            <vtex.cmc:{{loja}}Informativo />
+            <vtex.cmc:andre-aragaoInformativo />
         </article>
 
         <!-- Estrutura para slide prateleira -->
@@ -49,7 +49,7 @@
                 <h4 class="prateleira__title"> Titulo prateleira </h4>
             </section>
             <nav class="prateleira__shelve-template">
-                <vtex:contentPlaceHolder id="{{loja}}-prateleira01" />
+                <vtex:contentPlaceHolder id="andre-aragao-prateleira01" />
             </nav>
         </article>
 
@@ -60,7 +60,7 @@
                     <p class="marcas__text"></p>
             </section>
             <nav class="marcas__carousel">
-                <vtex.cmc:{{loja}}Marcas />
+                <vtex.cmc:andre-aragaoMarcas />
             </nav>
         </article>
 
@@ -70,7 +70,7 @@
                 <h2 class="your-views__title"> Titulo reviews </h2>
             </section>
             <section class="your-views__custom">
-                <vtex:contentPlaceHolder id="{{loja}}-reviews" />
+                <vtex:contentPlaceHolder id="andre-aragao-reviews" />
             </section>
         </article>
         <!--FIM YOURVIEWS-->
@@ -79,11 +79,11 @@
 
     <!-- Chamada para o rodapé -->
 
-    <vtex:template id="{{loja}}-footer" />
+    <vtex:template id="andre-aragao-footer" />
 
     <!-- Chamada para os scripts Js da loja -->
 
-    <vtex:template id="{{loja}}-scripts" />
+    <vtex:template id="andre-aragao-scripts" />
 
 </body>
 
