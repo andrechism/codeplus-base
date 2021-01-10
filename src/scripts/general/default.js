@@ -1,7 +1,17 @@
+const menu = require('../modules/menu');
+
 const Default = {
     init: function () {
-        console.log('testeeee')
+        Default.menuInit();
+    },
+
+    menuInit: () => {
+        const menuConfig = {
+            tree: 3,
+            mainClass: '.header__categorias'
+        }
+        menu.init(menuConfig);
     }
 }
 
-module.exports = Default
+module.exports = Default;
